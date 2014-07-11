@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		846694F7196FFB5800BA93DF /* YCFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 846694F6196FFB5800BA93DF /* YCFormatter.m */; };
+		84A2EF70196EF16000DA8A4B /* YCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A2EF6F196EF16000DA8A4B /* YCOperation.m */; };
+		84AF829C196D99F000D096AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF829B196D99F000D096AA /* Foundation.framework */; };
+		84AF829E196D99F000D096AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF829D196D99F000D096AA /* CoreGraphics.framework */; };
+		84AF82A0196D99F000D096AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF829F196D99F000D096AA /* UIKit.framework */; };
+		84AF82A6196D99F000D096AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AF82A4196D99F000D096AA /* InfoPlist.strings */; };
+		84AF82A8196D99F000D096AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF82A7196D99F000D096AA /* main.m */; };
+		84AF82AC196D99F000D096AA /* YCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF82AB196D99F000D096AA /* YCAppDelegate.m */; };
+		84AF82AF196D99F000D096AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF82AD196D99F000D096AA /* Main_iPhone.storyboard */; };
+		84AF82B2196D99F000D096AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AF82B0196D99F000D096AA /* Main_iPad.storyboard */; };
+		84AF82B7196D99F000D096AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AF82B6196D99F000D096AA /* Images.xcassets */; };
+		84AF82BE196D99F000D096AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF82BD196D99F000D096AA /* XCTest.framework */; };
+		84AF82BF196D99F000D096AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF829B196D99F000D096AA /* Foundation.framework */; };
+		84AF82C0196D99F000D096AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84AF829F196D99F000D096AA /* UIKit.framework */; };
+		84AF82C8196D99F000D096AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84AF82C6196D99F000D096AA /* InfoPlist.strings */; };
+		84AF82CA196D99F000D096AA /* YalantisCalucalorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF82C9196D99F000D096AA /* YalantisCalucalorTests.m */; };
+		84AF82D5196D9C1600D096AA /* YCCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AF82D4196D9C1600D096AA /* YCCalculatorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AF82C1196D99F000D096AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AF8290196D99F000D096AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AF8297196D99F000D096AA;
+			remoteInfo = YalantisCalucalor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		846694F5196FFB5800BA93DF /* YCFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCFormatter.h; sourceTree = "<group>"; };
+		846694F6196FFB5800BA93DF /* YCFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCFormatter.m; sourceTree = "<group>"; };
+		84A2EF6E196EF16000DA8A4B /* YCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCOperation.h; sourceTree = "<group>"; };
+		84A2EF6F196EF16000DA8A4B /* YCOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCOperation.m; sourceTree = "<group>"; };
+		84AF8298196D99F000D096AA /* YalantisCalucalor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YalantisCalucalor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF829B196D99F000D096AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84AF829D196D99F000D096AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84AF829F196D99F000D096AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84AF82A3196D99F000D096AA /* YalantisCalucalor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YalantisCalucalor-Info.plist"; sourceTree = "<group>"; };
+		84AF82A5196D99F000D096AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AF82A7196D99F000D096AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AF82A9196D99F000D096AA /* YalantisCalucalor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YalantisCalucalor-Prefix.pch"; sourceTree = "<group>"; };
+		84AF82AA196D99F000D096AA /* YCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YCAppDelegate.h; sourceTree = "<group>"; };
+		84AF82AB196D99F000D096AA /* YCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCAppDelegate.m; sourceTree = "<group>"; };
+		84AF82AE196D99F000D096AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		84AF82B1196D99F000D096AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		84AF82B6196D99F000D096AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84AF82BC196D99F000D096AA /* YalantisCalucalorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YalantisCalucalorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AF82BD196D99F000D096AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84AF82C5196D99F000D096AA /* YalantisCalucalorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YalantisCalucalorTests-Info.plist"; sourceTree = "<group>"; };
+		84AF82C7196D99F000D096AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84AF82C9196D99F000D096AA /* YalantisCalucalorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YalantisCalucalorTests.m; sourceTree = "<group>"; };
+		84AF82D3196D9C1600D096AA /* YCCalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YCCalculatorViewController.h; path = ../YCCalculatorViewController.h; sourceTree = "<group>"; };
+		84AF82D4196D9C1600D096AA /* YCCalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YCCalculatorViewController.m; path = ../YCCalculatorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AF8295196D99F000D096AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF829E196D99F000D096AA /* CoreGraphics.framework in Frameworks */,
+				84AF82A0196D99F000D096AA /* UIKit.framework in Frameworks */,
+				84AF829C196D99F000D096AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF82B9196D99F000D096AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF82BE196D99F000D096AA /* XCTest.framework in Frameworks */,
+				84AF82C0196D99F000D096AA /* UIKit.framework in Frameworks */,
+				84AF82BF196D99F000D096AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AF828F196D99F000D096AA = {
+			isa = PBXGroup;
+			children = (
+				84AF82A1196D99F000D096AA /* YalantisCalucalor */,
+				84AF82C3196D99F000D096AA /* YalantisCalucalorTests */,
+				84AF829A196D99F000D096AA /* Frameworks */,
+				84AF8299196D99F000D096AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AF8299196D99F000D096AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AF8298196D99F000D096AA /* YalantisCalucalor.app */,
+				84AF82BC196D99F000D096AA /* YalantisCalucalorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AF829A196D99F000D096AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84AF829B196D99F000D096AA /* Foundation.framework */,
+				84AF829D196D99F000D096AA /* CoreGraphics.framework */,
+				84AF829F196D99F000D096AA /* UIKit.framework */,
+				84AF82BD196D99F000D096AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84AF82A1196D99F000D096AA /* YalantisCalucalor */ = {
+			isa = PBXGroup;
+			children = (
+				84A2EF6E196EF16000DA8A4B /* YCOperation.h */,
+				84A2EF6F196EF16000DA8A4B /* YCOperation.m */,
+				84AF82AA196D99F000D096AA /* YCAppDelegate.h */,
+				84AF82AB196D99F000D096AA /* YCAppDelegate.m */,
+				84AF82AD196D99F000D096AA /* Main_iPhone.storyboard */,
+				84AF82B0196D99F000D096AA /* Main_iPad.storyboard */,
+				84AF82B6196D99F000D096AA /* Images.xcassets */,
+				84AF82D3196D9C1600D096AA /* YCCalculatorViewController.h */,
+				84AF82D4196D9C1600D096AA /* YCCalculatorViewController.m */,
+				846694F5196FFB5800BA93DF /* YCFormatter.h */,
+				846694F6196FFB5800BA93DF /* YCFormatter.m */,
+				84AF82A2196D99F000D096AA /* Supporting Files */,
+			);
+			path = YalantisCalucalor;
+			sourceTree = "<group>";
+		};
+		84AF82A2196D99F000D096AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AF82A3196D99F000D096AA /* YalantisCalucalor-Info.plist */,
+				84AF82A4196D99F000D096AA /* InfoPlist.strings */,
+				84AF82A7196D99F000D096AA /* main.m */,
+				84AF82A9196D99F000D096AA /* YalantisCalucalor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AF82C3196D99F000D096AA /* YalantisCalucalorTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AF82C9196D99F000D096AA /* YalantisCalucalorTests.m */,
+				84AF82C4196D99F000D096AA /* Supporting Files */,
+			);
+			path = YalantisCalucalorTests;
+			sourceTree = "<group>";
+		};
+		84AF82C4196D99F000D096AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AF82C5196D99F000D096AA /* YalantisCalucalorTests-Info.plist */,
+				84AF82C6196D99F000D096AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AF8297196D99F000D096AA /* YalantisCalucalor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AF82CD196D99F000D096AA /* Build configuration list for PBXNativeTarget "YalantisCalucalor" */;
+			buildPhases = (
+				84AF8294196D99F000D096AA /* Sources */,
+				84AF8295196D99F000D096AA /* Frameworks */,
+				84AF8296196D99F000D096AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YalantisCalucalor;
+			productName = YalantisCalucalor;
+			productReference = 84AF8298196D99F000D096AA /* YalantisCalucalor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AF82BB196D99F000D096AA /* YalantisCalucalorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AF82D0196D99F000D096AA /* Build configuration list for PBXNativeTarget "YalantisCalucalorTests" */;
+			buildPhases = (
+				84AF82B8196D99F000D096AA /* Sources */,
+				84AF82B9196D99F000D096AA /* Frameworks */,
+				84AF82BA196D99F000D096AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AF82C2196D99F000D096AA /* PBXTargetDependency */,
+			);
+			name = YalantisCalucalorTests;
+			productName = YalantisCalucalorTests;
+			productReference = 84AF82BC196D99F000D096AA /* YalantisCalucalorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AF8290196D99F000D096AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = yalantis;
+				TargetAttributes = {
+					84AF82BB196D99F000D096AA = {
+						TestTargetID = 84AF8297196D99F000D096AA;
+					};
+				};
+			};
+			buildConfigurationList = 84AF8293196D99F000D096AA /* Build configuration list for PBXProject "YalantisCalucalor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AF828F196D99F000D096AA;
+			productRefGroup = 84AF8299196D99F000D096AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AF8297196D99F000D096AA /* YalantisCalucalor */,
+				84AF82BB196D99F000D096AA /* YalantisCalucalorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AF8296196D99F000D096AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF82B2196D99F000D096AA /* Main_iPad.storyboard in Resources */,
+				84AF82B7196D99F000D096AA /* Images.xcassets in Resources */,
+				84AF82AF196D99F000D096AA /* Main_iPhone.storyboard in Resources */,
+				84AF82A6196D99F000D096AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF82BA196D99F000D096AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF82C8196D99F000D096AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AF8294196D99F000D096AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF82D5196D9C1600D096AA /* YCCalculatorViewController.m in Sources */,
+				84AF82AC196D99F000D096AA /* YCAppDelegate.m in Sources */,
+				84A2EF70196EF16000DA8A4B /* YCOperation.m in Sources */,
+				84AF82A8196D99F000D096AA /* main.m in Sources */,
+				846694F7196FFB5800BA93DF /* YCFormatter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AF82B8196D99F000D096AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AF82CA196D99F000D096AA /* YalantisCalucalorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AF82C2196D99F000D096AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AF8297196D99F000D096AA /* YalantisCalucalor */;
+			targetProxy = 84AF82C1196D99F000D096AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AF82A4196D99F000D096AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF82A5196D99F000D096AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84AF82AD196D99F000D096AA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF82AE196D99F000D096AA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		84AF82B0196D99F000D096AA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF82B1196D99F000D096AA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		84AF82C6196D99F000D096AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AF82C7196D99F000D096AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AF82CB196D99F000D096AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AF82CC196D99F000D096AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AF82CE196D99F000D096AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YalantisCalucalor/YalantisCalucalor-Prefix.pch";
+				INFOPLIST_FILE = "YalantisCalucalor/YalantisCalucalor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84AF82CF196D99F000D096AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YalantisCalucalor/YalantisCalucalor-Prefix.pch";
+				INFOPLIST_FILE = "YalantisCalucalor/YalantisCalucalor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84AF82D1196D99F000D096AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YalantisCalucalor.app/YalantisCalucalor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YalantisCalucalor/YalantisCalucalor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YalantisCalucalorTests/YalantisCalucalorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		84AF82D2196D99F000D096AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YalantisCalucalor.app/YalantisCalucalor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YalantisCalucalor/YalantisCalucalor-Prefix.pch";
+				INFOPLIST_FILE = "YalantisCalucalorTests/YalantisCalucalorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AF8293196D99F000D096AA /* Build configuration list for PBXProject "YalantisCalucalor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF82CB196D99F000D096AA /* Debug */,
+				84AF82CC196D99F000D096AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AF82CD196D99F000D096AA /* Build configuration list for PBXNativeTarget "YalantisCalucalor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF82CE196D99F000D096AA /* Debug */,
+				84AF82CF196D99F000D096AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AF82D0196D99F000D096AA /* Build configuration list for PBXNativeTarget "YalantisCalucalorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AF82D1196D99F000D096AA /* Debug */,
+				84AF82D2196D99F000D096AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AF8290196D99F000D096AA /* Project object */;
+}
